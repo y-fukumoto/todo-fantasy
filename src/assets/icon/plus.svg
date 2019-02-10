@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_add_48px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="タスクが入っている状態" transform="translate(-315.000000, -742.000000)">
+            <g id="ic_add_48px" transform="translate(306.000000, 733.000000)">
+                <path d="M26.5,26.5 L26.5,38.5 L21.5,38.5 L21.5,26.5 L9.5,26.5 L9.5,21.5 L21.5,21.5 L21.5,9.5 L26.5,9.5 L26.5,21.5 L38.5,21.5 L38.5,26.5 L26.5,26.5 Z" id="Path" stroke="#000000" fill="#000000"></path>
+                <polygon id="Path" points="0 0 48 0 48 48 0 48"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

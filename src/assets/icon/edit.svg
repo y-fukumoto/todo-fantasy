@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="タスクが入っている状態" transform="translate(-62.000000, -358.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="編集or完了" transform="translate(10.000000, 281.000000)">
+                <g id="Group" transform="translate(49.000000, 74.000000)">
+                    <g id="ic_edit_48px">
+                        <path d="M3,15.6662036 L3,19 L6.33379636,19 L16.1707182,9.16307821 L12.8369218,5.82928184 L3,15.6662036 Z M18.7399639,6.59383248 C19.0866787,6.24711766 19.0866787,5.6825948 18.7399639,5.33587998 L16.66412,3.26003612 C16.3174052,2.91332129 15.7528823,2.91332129 15.4061675,3.26003612 L13.7792749,4.88692874 L17.1130713,8.2207251 L18.7399639,6.59383248 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

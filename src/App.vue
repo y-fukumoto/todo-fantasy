@@ -1,29 +1,67 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div id="app" class="app" :class="'app--' + bgClass">
+    <Navigation/>
+    <transition tag="div">
+      <router-view/>
+    </transition>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
+<script>
+import Navigation from '@/components/Navigation.vue'
+
+export default {
+  components: {
+    Navigation
+  },
+  data() {
+    return {
+      bgClass: 1
     }
+  },
+  created() {
+    this.bgClass = Math.floor( Math.random() * (4 + 1 - 1) ) + 1
   }
+}
+</script>
+
+
+<style lang="scss">
+@import 'assets/_reset';
+</style>
+
+<style lang="scss" scoped>
+.app {
+  height: 100vh;
+  padding: 80px 10px 15px;
+  font-family: Arial,Helvetica,sans-serif;
+  overflow-y: hidden;
+  background-image: url('assets/bg/1.png');
+  background-repeat: none;
+  background-size: cover;
+  box-sizing: border-box;
+  &--1 {
+    background-image: url('assets/bg/1.png');
+  }
+  &--2 {
+    background-image: url('assets/bg/2.png');
+  }
+  &--3 {
+    background-image: url('assets/bg/3.png');
+  }
+  &--4 {
+    background-image: url('assets/bg/4.png');
+  }
+}
+
+.v-enter-active {
+  transition: all .8s ease;
+}
+.v-leave-active {
+  transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.v-enter, .v-leave-to {
+  transform: translateY(20px);
+  opacity: 0;
 }
 </style>

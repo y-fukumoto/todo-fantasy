@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="28px" viewBox="0 0 34 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_view_list_48px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="タスクが入っている状態" transform="translate(-26.000000, -97.000000)">
+            <g id="これからのTODO" transform="translate(18.000000, 87.000000)">
+                <g id="ic_view_list_48px">
+                    <path d="M8,28 L16,28 L16,20 L8,20 L8,28 Z M8,38 L16,38 L16,30 L8,30 L8,38 Z M8,18 L16,18 L16,10 L8,10 L8,18 Z M18,28 L42,28 L42,20 L18,20 L18,28 Z M18,38 L42,38 L42,30 L18,30 L18,38 Z M18,10 L18,18 L42,18 L42,10 L18,10 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                    <polygon id="Path" points="0 0 48 0 48 48 0 48"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
